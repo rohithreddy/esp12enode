@@ -2,9 +2,10 @@
 #include <PubSubClient.h>
 #include <Servo.h>
 // Update these with values suitable for your network.
-const char* ssid = "bitsian_network";
-const char* password = "bits_boys";
-const char* mqtt_server = "192.168.0.107";
+const char* ssid = "**your wifi uid**";
+const char* password = "wifi pass";
+const char* mqtt_server = "192.168.0.107";// can be a server running on lan or internet
+
 //const char* mqtt_server = " broker.hivemq.com";
 
 const short int BUILTIN_LED1 = 2;
